@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "clean": "rimraf ./build",
-    "local": "serverless offline start"
+    "local": "serverless offline start",
+    "prepare": "husky install"
   },
   "dependencies": {
     "uuid": "^8.3.2"
@@ -30,6 +31,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
     "jest": "^28.1.1",
     "prettier": "^2.7.1",
     "rimraf": "^2.5.4",
