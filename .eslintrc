@@ -1,0 +1,50 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["import", "@typescript-eslint", "prettier", "jest"],
+    "extends": [
+      "eslint:recommended",
+      "airbnb-base",
+      "plugin:prettier/recommended",
+      "plugin:import/errors",
+      "plugin:import/typescript",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "env": {
+      "es2022":true,
+      "node":true,
+      "jest": true
+    },
+    "rules": {
+      "max-len": [1, 140, 2],
+      "prefer-promise-reject-errors": 0,
+      "no-console":0,
+      "semi":1,
+      "comma-dangle": ["error",{
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }],
+      "operator-linebreak": "off",
+      "arrow-parens": ["error", "always"],
+      "prettier/prettier": "error",
+      "import/extensions": "off",
+      "import/no-unresolved": "error",
+      "@typescript=eslint/no-unused-var":[
+        "off",
+        {"args": "all", "arfsIgnoprePatter": "^_"}
+      ],
+      "import/no-extraneous-dependencies": [
+        "error",{
+          "devDependencies":true,
+          "optionalDependencies": false,
+          "peerDependencies":false,
+          "packageDir":"./"
+        }
+      ],
+      "import/prefer-default-export":"off"
+    }
+  }
