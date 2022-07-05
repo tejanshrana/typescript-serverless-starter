@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 //TODO fix it to work without force exit
-npx jest --forceExit
+yarn test

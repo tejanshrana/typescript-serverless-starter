@@ -9,6 +9,7 @@
     "lint": "eslint . --ext .ts",
     "clean": "rimraf ./build",
     "local": "serverless offline start",
+    "test": "jest --forceExit",
     "prepare": "husky install"
   },
   "dependencies": {
