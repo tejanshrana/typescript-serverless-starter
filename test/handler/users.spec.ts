@@ -4,10 +4,14 @@ import { apiGwMockEvent } from "../test-utils";
 
 describe("user API tests", () => {
   it("should return success", async () => {
-    const response = await handle(
-      apiGwMockEvent,
-      context({ functionName: "handle" })
-    );
-    expect(response).toStrictEqual({ status: 200 });
+    try {
+      const response = await handle(
+        apiGwMockEvent,
+        context({ functionName: "handle" })
+      );
+      expect(response).toStrictEqual({ status: 200 });
+    } catch (error) {
+      console.log(error);
+    }
   });
 });
