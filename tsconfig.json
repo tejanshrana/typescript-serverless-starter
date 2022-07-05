@@ -8,7 +8,8 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "declaration": false,
-    "listFiles": false
+    "listFiles": false,
+    "esModuleInterop": true
   },
   "exclude": [
     ".vscode",
