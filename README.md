@@ -1,5 +1,5 @@
 # Typescript Serverless Starter
-This starter can be user to bootstrap a new TS based Serverless project to be deployed on AWS. This starter inclues:
+This starter can be user to bootstrap a new TS based Serverless project to be deployed on AWS. This starter includes:
 
 - Node based backend services
 - TS as the language
@@ -9,6 +9,10 @@ This starter can be user to bootstrap a new TS based Serverless project to be de
 - Husky
 - Jest
 - AWS SDK V3
-- Example of Event Bridge, API GW, SQS - with loggers and tests  - WIP
-- Example of DynamoDB as it is a common use case  - WIP
+- Example of 
+  - Event Bridge - WIP 
+  - API GW 
+  - SQS - WIP
+  - DynamoDB - WIP
 - Build and Deploy with Codepipeline/Github actions  - WIP
+- Webpack - WIP
