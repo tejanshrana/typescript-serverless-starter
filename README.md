@@ -4,7 +4,7 @@ This starter can be user to bootstrap a new TS based Serverless project to be de
 - Node based backend services
 - TS as the language
 - Serverless v3
-- Pino - WIP
+- Pino 
 - ESLint
 - Husky  - WIP
 - Jest
