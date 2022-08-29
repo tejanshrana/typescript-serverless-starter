@@ -18,5 +18,6 @@ export const handle = async (event: APIGatewayProxyEvent, context: Context) => {
     };
   } catch (error) {
     logger.error(error);
+    throw error;
   }
 };

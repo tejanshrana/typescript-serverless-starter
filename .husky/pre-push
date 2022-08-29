@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-//TODO fix it to work without force exit
-yarn test
+#TODO fix it to work without force exit
+yarn lint && yarn test
