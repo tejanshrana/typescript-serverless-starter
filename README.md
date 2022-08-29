@@ -6,7 +6,7 @@ This starter can be user to bootstrap a new TS based Serverless project to be de
 - Serverless v3
 - Pino 
 - ESLint
-- Husky  - WIP
+- Husky
 - Jest
 - AWS SDK V3
 - Example of Event Bridge, API GW, SQS - with loggers and tests  - WIP
